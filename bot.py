@@ -10,7 +10,6 @@ from sqlite3.dbapi2 import Date
 import discord
 from discord import embeds
 from discord_components.dpy_overrides import send
-import googletrans
 from discord import Color, Embed, client, message, raw_models
 from discord.ext import commands
 from discord.ext.commands import Bot, MissingPermissions, has_permissions
@@ -18,7 +17,6 @@ from discord.ext.commands.core import has_any_role
 from discord.message import PartialMessage
 from discord.utils import get, time_snowflake
 from discord_components import Button, ButtonStyle, DiscordComponents
-from googletrans import Translator
 from discord import Member
 
 from fullaccess import developersid, devlopersmoderid, moderatorsrole
